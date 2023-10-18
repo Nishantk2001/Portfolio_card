@@ -12,19 +12,23 @@
   -webkit-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
   -moz-box-shadow: 5px 5px 5px 1px rgba(120, 120, 120, 0.44);
 }
-
-/* .ImageBox img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-} */
+.button a {
+  margin-top: 20px;
+  justify-content: space-between;
+  margin: 0 0 0 15px;
+}
+.button i {
+  justify-content: space-between;
+}
 .card-title {
   color: #fff;
   text-align: center;
   font-weight: bold;
   font-size: larger;
   font-family: Georgia, serif;
+  font-size: 25px;
 }
+
 .card-title2 {
   color: #fff;
   text-align: center;
@@ -55,20 +59,12 @@ h2 {
   font-weight: bold;
   font-family: "Rubik", sans-serif;
 }
-.btn i {
-  padding: 5px;
-}
+
 .card-text {
   color: #fff;
 }
-.social-media {
-  background-color: rgb(37, 35, 35);
-  padding: 10px;
-  margin: 5px 0 0 0;
-}
-.social-media i {
-  color: #fff;
-  justify-content: space-between;
-  padding: 7px;
+.footer {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
